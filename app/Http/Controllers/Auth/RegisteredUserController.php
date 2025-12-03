@@ -9,6 +9,7 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\Rules;
 use Illuminate\View\View;
 
@@ -29,17 +30,25 @@ class RegisteredUserController extends Controller
      */
     public function store(Request $request): RedirectResponse
     {
+
         $request->validate([
-            'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:'.User::class],
+            'nama' => ['required', 'string', 'max:150'],
+            'no_hp' => ['nullable', 'string', 'max:20'],
+            'email' => ['required', 'string', 'lowercase', 'email', 'max:150', 'unique:users,email'],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
         ]);
 
-        $user = User::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'password' => Hash::make($request->password),
-        ]);
+        // Ambil role default (misal: admin)
+        $roleId = DB::table('roles')->where('nama_role', 'admin')->value('id');
+
+$user = User::create([
+    'id' => \Illuminate\Support\Str::uuid(),
+    'nama' => $request->nama,
+    'no_hp' => $request->no_hp,
+    'email' => $request->email,
+    'password' => Hash::make($request->password),
+    'role_id' => $roleId,
+]);
 
         event(new Registered($user));
 

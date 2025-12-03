@@ -15,11 +15,19 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        // Buat role default
+        $roleId = \Illuminate\Support\Str::uuid();
+        \DB::table('roles')->insert([
+            'id' => $roleId,
+            'nama_role' => 'admin',
+        ]);
+
         // User::factory(10)->create();
 
         User::factory()->create([
-            'name' => 'Test User',
+            'nama' => 'Test User',
             'email' => 'test@example.com',
+            'role_id' => $roleId,
         ]);
     }
 }

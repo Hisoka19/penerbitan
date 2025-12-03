@@ -4,6 +4,7 @@ namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 
 /**
@@ -23,12 +24,21 @@ class UserFactory extends Factory
      */
     public function definition(): array
     {
+        // Ambil id role admin jika ada, jika tidak buat baru
+        $roleId = DB::table('roles')->where('nama_role', 'admin')->value('id');
+        if (!$roleId) {
+            $roleId = Str::uuid();
+            DB::table('roles')->insert([
+                'id' => $roleId,
+                'nama_role' => 'admin',
+            ]);
+        }
         return [
-            'name' => fake()->name(),
+            'id' => Str::uuid(),
+            'role_id' => $roleId,
+            'nama' => fake()->name(),
             'email' => fake()->unique()->safeEmail(),
-            'email_verified_at' => now(),
             'password' => static::$password ??= Hash::make('password'),
-            'remember_token' => Str::random(10),
         ];
     }
 
@@ -37,8 +47,6 @@ class UserFactory extends Factory
      */
     public function unverified(): static
     {
-        return $this->state(fn (array $attributes) => [
-            'email_verified_at' => null,
-        ]);
+        return $this->state(fn (array $attributes) => []);
     }
 }

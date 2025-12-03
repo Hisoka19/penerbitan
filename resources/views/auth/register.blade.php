@@ -79,11 +79,27 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 15c2.5 0 4.847.655 6.879 1.804M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                                     </svg>
                                 </div>
-                                <input id="name" type="text" name="name" value="{{ old('name') }}" required autofocus autocomplete="name"
+                                <input id="nama" type="text" name="nama" value="{{ old('nama') }}" required autofocus autocomplete="name"
                                     class="block w-full pl-12 pr-4 py-3.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent transition duration-150 ease-in-out text-gray-900 placeholder-gray-400"
                                     placeholder="Nama lengkap">
                             </div>
                             <x-input-error :messages="$errors->get('name')" class="mt-2" />
+                        </div>
+                        <!-- No HP -->
+                        <div>
+                            <label for="no_hp" class="block text-sm font-semibold text-gray-700 mb-2">No. HP</label>
+                            <div class="relative">
+                                <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                                    <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10a4 4 0 014-4h10a4 4 0 014 4v4a4 4 0 01-4 4H7a4 4 0 01-4-4v-4z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 15h.01M12 15h.01M16 15h.01" />
+                                    </svg>
+                                </div>
+                                <input id="no_hp" type="text" name="no_hp" value="{{ old('no_hp') }}" autocomplete="tel"
+                                    class="block w-full pl-12 pr-4 py-3.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent transition duration-150 ease-in-out text-gray-900 placeholder-gray-400"
+                                    placeholder="08xxxxxxxxxx">
+                            </div>
+                            <x-input-error :messages="$errors->get('no_hp')" class="mt-2" />
                         </div>
                         <!-- Email Address -->
                         <div>
