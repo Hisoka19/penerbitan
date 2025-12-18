@@ -654,7 +654,7 @@ Dampak Sosial & Kontribusi
 • Akses equal untuk semua kalangan
 
 💰 ECONOMIC EMPOWERMENT
-• Fair royalty: 70-85% untuk penulis (vs 10-30%)
+• Fair royalty: 80-85% untuk penulis (vs 10-30% traditional publishers)
 • Menciptakan 1,000+ pekerjaan untuk editor freelance
 • Estimated $5M income distribution ke creators (Year 3)
 
