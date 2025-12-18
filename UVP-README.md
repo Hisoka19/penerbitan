@@ -221,7 +221,7 @@ Platform ini sudah memiliki foundation yang solid dengan:
 2. **Only platform** yang support multi-author dengan auto royalty split
 3. **Only platform** dengan integrated editorial workflow + payment system
 4. **Only platform** fokus ke local market dengan global scalability
-5. **Better royalty rate** (70-85%) dibanding traditional publishers (10-30%)
+5. **Better royalty rate** (80-85% for authors) dibanding traditional publishers (10-30% for authors)
 
 ---
 

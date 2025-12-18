@@ -118,7 +118,7 @@
 ❌ Weaker: Community size (initially)
 
 ### vs Traditional Publishers
-✅ Better: Speed, transparency, fair royalty (70-90% vs 10-30%)
+✅ Better: Speed, transparency, fair royalty (80-85% for authors vs 10-30% from traditional)
 ❌ Weaker: Marketing budget, established distribution
 
 ---

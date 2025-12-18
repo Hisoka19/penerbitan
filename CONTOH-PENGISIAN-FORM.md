@@ -114,7 +114,7 @@ Mengatasi fragmentasi dalam industri penerbitan dimana penulis harus menggunakan
 
 IMPACT:
 • Menurunkan time to market dari 12 bulan menjadi 30 hari (90% lebih cepat)
-• Meningkatkan royalty rate untuk penulis dari 10-30% menjadi 70-85%
+• Meningkatkan royalty rate untuk penulis dari 10-30% menjadi 80-85%
 • Memberikan akses penerbitan untuk 50,000+ penulis yang sebelumnya tertolak
 • Menciptakan income opportunity untuk 1,000+ editor freelance
 • Estimated $5M income distribution ke creators dalam 3 tahun
@@ -144,7 +144,7 @@ TARGET:
 Penulis independen (50,000+), penerbit kecil-menengah (200+), editor freelance (10,000+), pembaca aktif (5M+).
 
 PROBLEM SOLVED: 
-Menghilangkan fragmentasi proses penerbitan, ketidaktransparanan workflow, dan unfair royalty system tradisional. Time to market turun dari 12 bulan ke 30 hari. Royalty rate naik dari 10-30% ke 70-85% untuk penulis.
+Menghilangkan fragmentasi proses penerbitan, ketidaktransparanan workflow, dan unfair royalty system tradisional. Time to market turun dari 12 bulan ke 30 hari. Royalty rate naik dari 10-30% ke 80-85% untuk penulis.
 
 MARKET: 
 Indonesia book market $500M/year, self-publishing global $1.5B/year dengan 30% YoY growth.
@@ -161,7 +161,7 @@ Unfair Advantage: Integrasi 6 komponen dalam satu sistem seamless yang butuh 6-1
 
 Target: Penulis independen, penerbit kecil, editor freelance, pembaca aktif (total addressable market 5M+ users).
 
-Impact: Time to market 90% lebih cepat (30 hari vs 12 bulan), royalty 70-85% (vs 10-30% traditional).
+Impact: Time to market 90% lebih cepat (30 hari vs 12 bulan), royalty 80-85% (vs 10-30% traditional).
 ```
 
 ---

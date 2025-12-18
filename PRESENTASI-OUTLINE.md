@@ -328,9 +328,10 @@ Local Market Focus  |  ✅   |  ❌   |    ✅    |   ❌
 Community Review    |  ✅   |  ✅   |    ✅    |   ✅
 Fair Royalty Rate   |  ✅   |  ✅   |    ❌    |   ⚠️
 
-Author Royalty:     70-85%  70%    10-30%    Varies
+Author Royalty:     80-85%  70%    10-30%    Varies
+Platform Commission: 15-20% 30%    70-90%   Varies
 
-Best of All Worlds: Self-publishing + Editorial + Transparency
+Best of All Worlds: Self-publishing + Editorial + Transparency + Better Royalty
 ```
 
 **Visual**: Color-coded comparison table

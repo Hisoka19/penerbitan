@@ -210,8 +210,8 @@ Platform ini mengambil best practices dari berbagai platform existing dan mengko
 ### Revenue Streams:
 
 1. **Commission-based Model**
-   - Percentage dari setiap penjualan buku (10-30%)
-   - Lebih rendah dari traditional publisher (yang biasa 70-90%)
+   - Platform mengambil 15-20% dari setiap penjualan buku
+   - Penulis menerima 80-85% (vs traditional publisher yang hanya memberikan 10-30% untuk penulis)
 
 2. **Premium Features**
    - Featured listing untuk buku
