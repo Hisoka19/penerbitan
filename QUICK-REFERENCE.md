@@ -128,9 +128,10 @@
 ### Revenue Streams:
 
 1. **Commission** (Primary - 60% revenue)
-   - 15-20% dari setiap penjualan
-   - Still better than traditional (70-90% cut)
-   - Scale: 10,000 books × $10 × 20% × 30% conversion = $60,000/year
+   - Platform takes 15-20% commission dari setiap penjualan
+   - Authors receive 80-85% of gross sales
+   - Much better than traditional publishers (who take 70-90%, leaving authors only 10-30%)
+   - Scale: 10,000 books × $10 × 20% commission × 30% conversion = $60,000/year platform revenue
 
 2. **Premium Features** (Secondary - 25% revenue)
    - Featured listing: $50/month per book
